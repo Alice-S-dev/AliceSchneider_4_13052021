@@ -3,14 +3,11 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -810,11 +807,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/texture-dots.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/texture-lines.png");
 }
 
 .bg-banniere {
@@ -822,7 +819,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/presentation-agence-design.png");
 }
 
 @media (max-width: 1024px) {
@@ -869,8 +866,8 @@ h4 {
     }
     .page-container,
     #hero-bloc {
-        overflow-x: hidden;
         position: relative;
+        overflow-x: hidden;
     }
     .bloc {
         padding-left: constant(safe-area-inset-left);
