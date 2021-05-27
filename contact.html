@@ -10,7 +10,7 @@
 	<!-- favicon.png convertie en favicon.ico, format plus adapté-->
 	<link rel="shortcut icon" type="image/ico" href="favicon.ico">
 	<!-- Pour éviter le risque de duplicate content-->
-	<link rel="canonical" href="https://alice-s-dev.github.io/AliceSchneider_4_13052021/">
+	<link rel="canonical" href="https://alice-s-dev.github.io/AliceSchneider_4_13052021/.html">
 
 	<!-- Fichiers minifiés -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
@@ -44,10 +44,10 @@
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav" title="Navigation">
 							<li>
-								<a href="index.html" role="link">Accueil</a>
+								<a href="index.html" aria-label="Page d'accueil">Accueil</a>
 							</li>
 							<li>
-								<a href="contact.html" role="link">Contact</a>
+								<a href="contact.html" aria-label="Nous contacter">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -106,6 +106,17 @@
 									</label>
 									<textarea class="form-control" id="message" placeholder="Parlez-nous de votre projet" rows="4" cols="50" required></textarea>
 								</div> 
+
+								<div>
+									<p>
+										En soumettant ce formulaire, j'accepte que les données saisies soient exploitées dans le cadre de la relation commerciale avec La chouette agence
+									</p>
+									<input type="checkbox" id="consentement" name="consentement">
+									<label for="consentement" class="bold-link"> J'accepte </label>
+  									
+  									
+								</div>
+
 								<button class="bloc-button btn btn-lg btn-block btn-atomic-tangerine" type="submit">
 									Envoyer
 								</button>
@@ -138,25 +149,28 @@
 						<p class="text-center white">
 							La chouette agence - Agence de web design à Lyon
 						</p>
+						<p class="text-center">
+							<a href="mentions-legales.html" aria-label="Accéder aux mentions légales" class="tc-white bold-link">Mentions légales</a>
+						</p>
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://twitter.com" aria-label="Twitter"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="https://twitter.com" aria-label="nous suivre sur Twitter"><span class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://fr-fr.facebook.com" aria-label="Facebook"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="https://fr-fr.facebook.com" aria-label="nous suivre sur Facebook"><span class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://dribbble.com" aria-label="Dribbble"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="https://dribbble.com" aria-label="nous suivre sur Dribbble"><span class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://instagram.com" aria-label="Instagram"><span class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="https://instagram.com" aria-label="nous suivre sur Instagram"><span class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
 						</div>
@@ -170,9 +184,9 @@
 	<!-- Conteneur page END -->
 
 	<!-- Scripts Javascript -->
-	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.js"></script>
+	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.min.js"></script>
 	<script src="./js/formHandler.min.js"></script>
 
