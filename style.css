@@ -129,10 +129,6 @@ a:hover {
     min-width: 100px;
 }
 
-.nav-center .navbar-brand img {
-    margin: 0;
-}
-
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
@@ -283,6 +279,8 @@ h2 {
     font-size: 1.5em;
     line-height: 1.5em;
     position: relative;
+    max-width: 90%;
+    margin: auto;
 }
 
 h3 {
@@ -309,6 +307,10 @@ p {
     color: #FFFFFF;
 }
 
+.social:hover {
+    color:rgba(255,255,255,.6);
+}
+
 
 .med-width-whitespace {
     max-width: 800px;
@@ -319,6 +321,10 @@ p {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+}
+
+.marg-bott {
+    margin-bottom: 30px;
 }
 
 .white {
@@ -498,13 +504,6 @@ p {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
-    .hero {
-        padding: 50px 0;
-    }
-    .hero-nav {
-        left: -1px;
-        right: -1px;
-    }
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
@@ -565,6 +564,13 @@ p {
     }
     form {
         padding: 5px;
+    }
+    .social {
+        display: flex;
+        flex-direction: column;
+    }
+    .icon-md {
+    font-size: 50px!important;
     }
 }
 @media (min-width: 768px) {
