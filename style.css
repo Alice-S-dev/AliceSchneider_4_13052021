@@ -14,6 +14,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 .bloc {
     width: 100%;
     clear: both;
@@ -403,6 +404,9 @@ p {
     background: #712E0E!important;
 }
 
+.btn-atomic-tangerine:focus {
+    outline: thin dotted!important;
+}
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
