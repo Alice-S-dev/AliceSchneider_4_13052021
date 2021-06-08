@@ -369,7 +369,7 @@ p {
     max-height: 270px;
 }
 .black-background {
-    background-color: rgba(98, 86, 56, 0.7);
+    background-color: rgba(49, 29, 0, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -392,6 +392,10 @@ p {
 
 .tc-white {
     color: #FFFFFF!important;
+}
+
+.orange {
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
