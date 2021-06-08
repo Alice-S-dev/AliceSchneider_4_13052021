@@ -309,7 +309,7 @@ p {
     max-width: 400px;
     margin: auto;
     padding-top: 20px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .social:hover {
@@ -349,6 +349,9 @@ p {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: #000000!important;
+}
 
 .portfolio-thumb {
     margin: auto;
@@ -384,7 +387,7 @@ p {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #953C13;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -392,8 +395,8 @@ p {
 }
 
 .btn-atomic-tangerine {
-    background-color: #953C13;
-    color: #FFFFFF!important;
+    background-color: #F3976C;
+    color: #000000!important;
     margin-top: 22px;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -401,7 +404,7 @@ p {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #712E0E!important;
+    background: #c27956!important;
 }
 
 .btn-atomic-tangerine:focus {
